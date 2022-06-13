@@ -1,1 +1,83 @@
-css
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #246c7e;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: .3s;
+}
+
+
+.section {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    width: 50%;
+}
+
+.section-profile {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.header {
+    background-color: rgba(42, 124, 231, 0.568);
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer {
+    background-color: #1488;
+    padding: 20px;  
+  }
+  
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    color: #fff;
+}
+
+#profile {
+    font-variant: small-caps;
+    font-size: 26px;
+    font-weight: 700;
+}
+
