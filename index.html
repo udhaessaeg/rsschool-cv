@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Elbrus Dudarov CV</title>
+    <title>CV</title>
+    <link rel="icon" href="./assets/favicon.ico">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="icon" href="assets/favicon.ico">
 </head>
 <body>
     <header class="header">
@@ -42,37 +42,37 @@
     <main class="main">
         <div class="container main-container">
             <section class="section section-profile" id="profile" >
-               <img src="./img/prof.jpg" alt="profile-pic" height="322" width="228"> 
+               <img src="assets/img/prof.jpg" alt="profile-pic" class="section-profile-logo"> 
                <div class="section-profile-tittle">
-                    <h1 class="section-title">Elbrus Dudarov</h1>
+                    <h1 class="section-profile-header">Elbrus Dudarov</h1>
                     <h3>Junior front-end developer</h3>
                </div>
             </section>
             <section class="section" id="contacts">
                 <h2 class="section-title">Contacts</h2>
-                <ul>
+                <ul class="section-list">
                     <li>
                         Russia, Vladikavkaz
                     </li>
-                    <li>
+                    <li class="list-link">
                         Email :
-                        <a href="mailto:dvekrishki@gmail.com" title="Email">
+                        <a class="list-link" href="mailto:dvekrishki@gmail.com" title="Email">
                             dvekrishki@gmail.com
                         </a>
                     </li>
-                    <li>
+                    <li class="list-link">
                         Github :
-                        <a href="https://github.com/udhaessaeg" title="Github">
+                        <a class="list-link" href="https://github.com/udhaessaeg" title="Github">
                             udhaessaeg
                         </a>
                     </li>
                     <li>
                         Telegram :
-                        <a href="https://t.me/udhaessaeg" title="Telegram">@udhaessaeg</a>
+                        <a class="list-link" href="https://t.me/udhaessaeg" title="Telegram">@udhaessaeg</a>
                     </li>
                     <li>
                         Discord :
-                        <a href="https://discord.gg/7jY2z7hR" title="Discord">
+                        <a class="list-link" href="https://discord.gg/7jY2z7hR" title="Discord">
                             udhaessaeg#4808
                         </a>
                     </li>
@@ -84,21 +84,21 @@
             </section>
             <section class="section" id="skills">
                 <h2 class="section-title">Skills</h2>
-                <ul>
+                <ul class="section-list">
                     <li> 
-                        Web-develepment:
+                        <b>Web-develepment:</b>
                         <span>HTML5, CSS3, JavaScript</span>
                     </li>
                     <li> 
-                        Version control:
+                        <b>Version control:</b>
                         <span>Git, GitHub</span>
                     </li>
                     <li>
-                        Graphics:
-                        <span>Figma balls</span>
+                        <b>Graphics:</b>
+                        <span>Figma</span>
                     </li>
                     <li>
-                        Over accomplishments:
+                        <b>Over accomplishments:</b>
                         <span>Candidate for Master of Sport in Making Pipettes</span>
                     </li>
                 </ul>
@@ -112,24 +112,28 @@
             arr [i] = x[i] * 2;
         }
         return arr;
-      }
-                </pre></p>
+      }</pre></p>
             </section>
-            <section class="section" id="education"> 
+            <section class="section-last" id="education"> 
                 <h2 class="section-title">Education</h2>
                 <p>North Caucasian Institute Of Mining And Metallurgy (State Technological University)</p>
             </section>
-            <section class="section" id="english"> 
+            <section class="section-last" id="english"> 
                 <h2 class="section-title">English</h2>
-                <p>B2 - Upper-Intermediate</p>
+                <p><b>B2</b> - Upper-Intermediate</p>
             </section>
         </div>
     </main>
 
     <footer class="footer">
         <div class="container footer-container">
-            <p>Footer 2022 Ya ebal svoy rot</p>
-            <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" height="69" width="228"></a>
+            <p>
+                2022
+                <a class="nav-link" href="https://github.com/udhaessaeg" title="Github">
+                    udhaessaeg
+                </a>
+            </p>
+            <a  href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" height="69" width="228"></a>
         </div>
     </footer>
     
