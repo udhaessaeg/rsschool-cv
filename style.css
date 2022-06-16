@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+  }
+
+html {
+    scroll-behavior: smooth; 
+}
+
+body {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #246c7e;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.section-list {
+    margin: 0;
+    padding: 0; 
+    list-style: none;
+}
+
+.nav-link {
+    position: relative;
+    padding: 0 12px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 50px;
+    color: #fff; 
+}
+
+.list-link {
+    text-decoration: none;
+    color: #246c7e;
+}
+
+.section-last {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+
+    text-decoration: none;
+    width: calc(50% - 20px);
+    padding: 10px;
+    padding-bottom: 35px;
+}
+
+.section {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+
+    text-decoration: none;
+    width: calc(50% - 20px);
+    padding: 10px;
+    padding-bottom: 35px;
+
+    border-bottom: 5px solid #506d72b9
+}
+
+.section-profile {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+    border-bottom: 15px solid #506d72b9;
+}
+
+.section-profile-header {
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 34px;
+    border-bottom: 2px solid #506d72b9;
+}
+
+.section-profile-logo {
+    
+    width: 322px;
+    height: 322px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 1px 4px #506d72b9;
+}
+.header {
+    background-color: #506d72b9;
+    padding: 15px;  
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.main {
+    margin-bottom: auto;
+    background-color: ADD8E6;
+}
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer {
+    background-color: #506d72b9;
+    padding: 20px;  
+    color: #fff;
+  }
+  
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    color: #123453;
+}
+
+#profile {
+    font-variant: small-caps;
+    font-size: 26px;
+    font-weight: 700;
+}
+
